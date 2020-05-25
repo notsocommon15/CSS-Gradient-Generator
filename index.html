@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Gradient Generator
+        </title>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet" >
+    </head>
+    <body>
+        <section class="gradientGenerator">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-15 col-md-15 col-lg-6">
+                          <h1>CSS Gradient Generator</h1>
+        
+                        <div class="colorPicker">
+                            <h1>Choose Colors:</h1>
+                            <input class="inputColorOne" type="color" name="color1" id="color1" value="#be6edb">
+                            <input class="inputColorTwo" type="color" name="color2" id="color2" value="#09818a">
+                        </div> 
+        
+                        <div class="colorRandom">
+                          <h1>Generate Random Background Color:</h1>
+                          <button class="randomColorBtn"><i class="fas fa-random"></i><h6 style="font-size: 10px;">Generate</h6></button>
+                        </div> 
+        
+                        <h1 style="margin-bottom: 5px;">CSS Code:</h1>
+                        <div class="codeDisplay">
+                          <p class="cssCode">background-color: linear-gradient(to right, rgb(190110, 219), rgb(9, 129, 138));</p>
+                        </div> 
+                        </div>
+                </div> 
+              </div> 
+        </section> 
+        
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</html>

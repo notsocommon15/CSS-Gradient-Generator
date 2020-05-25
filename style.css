@@ -1,0 +1,96 @@
+/* general styles */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: linear-gradient(to right, rgb(190, 110, 219), rgb(9, 129, 138));
+  color: #fff;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+::selection {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  height: 700px;
+}
+
+/* main section styles  */
+div.container {
+  margin-top: 10px;
+}
+
+div.colorRandom, div.colorPicker {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+div.codeDisplay {
+	background: rgba(0, 0, 0, 0.1);
+	color: #fff;
+	border-radius: 10px;
+	box-shadow: -5px 1px 30px rgba(0,0,0, 0.3);
+  width: 80%;
+  height: 40%;
+  margin: 0 auto;
+  font-size: 23px;
+}
+
+div.codeDisplay p {
+	padding: 10px 5px;
+}
+
+h1, h3 {
+	font-size: 2.5em;
+	font-weight: bold;
+	text-align: center;
+
+	text-align: center;
+	text-shadow: 5px 1px 10px rgba(0,0,0, 0.5);
+	font-family: cursive;
+}
+
+button.randomColorBtn {
+	background: rgba(0, 0, 0, 0.3);
+	border: none;
+	color: #fff;
+	padding-top: 5px;
+	border-radius: 50px;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	cursor: pointer;
+	box-shadow: -5px 1px 30px rgba(0,0,0, 0.3);
+	transition: transform 800ms;
+  outline: none;
+  margin-top: 5px;
+  height: 70%;
+  width: 30%;
+}
+
+button.randomColorBtn:hover {
+	transform: scale(1.1, 1.1);
+}
+
+i.fa-random {
+	font-size: 1.3em;
+}
+
+input[type="color"] {
+	background: transparent;
+	color: transparent;
+	height: 30px;
+	width: 30px;
+	cursor: pointer;
+	border: 2px 2px rgb(255, 255, 255);
+	outline: none;
+	transition: transform 1s, box-shadow 1s;
+}
+
+input[type="color"]:hover {
+	transform: scale(1.1, 1.1);
+	box-shadow: -5px 1px 30px rgba(0,0,0, 0.9);
+}
+/* end of main section styles */
